@@ -1,0 +1,43 @@
+/*reset de estilos*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*estilos generales*/
+
+body{
+ font-size: 'Sevillana', cursive;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ background-color: whitesmoke;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 200px;
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.description{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
